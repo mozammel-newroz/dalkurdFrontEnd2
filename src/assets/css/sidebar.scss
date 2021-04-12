@@ -1,0 +1,17 @@
+
+$sidebar-bg-color: #5f27cd !default;
+$sidebar-color: #fff !default;
+$sidebar-width: 270px !default;
+$sidebar-collapsed-width: 80px !default;
+$highlight-color: #d8d8d8 !default;
+$submenu-bg-color: #6c5ce7 !default;
+$submenu-bg-color-collapsed: #5f27cd !default;
+$icon-bg-color: rgba(0,0,0,0) !default;
+$icon-size: 35px !default;
+$breakpoint-xs: 480px !default;
+$breakpoint-sm: 576px !default;
+$breakpoint-md: 768px !default;
+$breakpoint-lg: 992px !default;
+$breakpoint-xl: 1200px !default;
+
+@import '~react-pro-sidebar/dist/scss/styles.scss';
