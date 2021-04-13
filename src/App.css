@@ -1,21 +1,72 @@
-* {
+body {
   margin: 0;
   padding: 0;
+  background: #eeeff3;
   box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
 }
 .wrapper {
-  display: flex;
-  background-color: #EEEFF3;
+  width: calc(100% - 270px);
+  /* background: #ddd; */
+  float: right;
+  min-height: calc(100vh - 66px);
+  margin-top: 57px;
 }
-.wrapper_inner {
-  padding: 24px;
-  width: 100%;
+.wrapper-inner {
+  padding: 30px;
 }
-.pro-sidebar .pro-menu .pro-menu-item {
-  font-size: 1rem !important;
-  font-weight: 400;
-  font-family: Fira Sans Condensed,sans-serif;
+.pro-sidebar .pro-menu {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100vh;
+  float: left;
+  position: fixed;
+  background: #fff;
+  width: 270px;
+  top: 50px;
 }
 a {
   text-decoration: none;
+  color: #fff;
 }
+.black_link {
+  color: #333;
+}
+
+.swal2-title {
+  font-size: 1.6rem !important;
+  font-weight: 400 !important;
+  /* color: #fff !important; */
+}
+.swal2-header {
+  padding: 0 !important;
+  /* background-color: black; */
+}
+.swal2-icon {
+  width: 5rem  !important;
+  height: 5rem !important;
+  margin: 5px  !important;
+}
+.swal2-icon .swal2-icon-content {
+  font-size: 2.5rem  !important;
+
+}
+/* .swal2-popup {
+  background: #384FAD  !important;
+} */
+
+/* test */
+/* label {
+  background-color: indigo;
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+} */
+
+/* #file-chosen{
+  margin-left: 0.3rem;
+  font-family: sans-serif;
+} */
