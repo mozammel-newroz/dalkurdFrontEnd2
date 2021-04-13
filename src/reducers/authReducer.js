@@ -1,6 +1,6 @@
 const authReducer = (state, action) => {
   switch (action.type) {
-    case "OTP_GENERATE":
+    case "LOGIN":
       return action.payload;
     case "LOGOUT":
       return action.payload;
